@@ -14,7 +14,7 @@ body
 
 .container
 {
-    margin: 10%;
+    margin: 8%;
     width: 90%;
     max-width: 700px;
 }
@@ -45,8 +45,12 @@ body
 
 .display img{
     width: 55px;
-   
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.display img:hover{
+    transform: scale(1.15);
 }
 
 .display input
@@ -62,6 +66,8 @@ body
     margin-right: 10px;
 }
 
+
+
 .container button
 {
     border: 0;
@@ -76,4 +82,9 @@ body
     padding: 14px 16px;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.container button:hover
+{
+    background-color: #4b911a;
 }
